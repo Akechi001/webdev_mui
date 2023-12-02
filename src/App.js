@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Button from '@mui/material/Button';
 import {Stack, Grid, Box, Typography, FormControlLabel, Switch} from "@mui/material";
+import DesignCard from "./design-card";
 
 function App() {
   return (
@@ -43,7 +44,59 @@ function App() {
                     />
                 </Stack>
           </Box>
+          <Stack
+              direction="row"
+              spacing={4}
+              marginTop={"30px"}
+              alignSelf={"center"}
+          >
 
+
+          <DesignCard
+              logo={logo}
+              tag={""}
+              num={""}
+              type={""}
+              arrow={""}
+              changes={""}
+              changescolor={""}
+              linecolor={""}
+          >
+          </DesignCard>
+          <DesignCard
+              logo={logo}
+              tag={""}
+              num={""}
+              type={""}
+              arrow={""}
+              changes={""}
+              changescolor={""}
+              linecolor={""}
+          >
+          </DesignCard>
+          <DesignCard
+              logo={logo}
+              tag={""}
+              num={""}
+              type={""}
+              arrow={""}
+              changes={""}
+              changescolor={""}
+              linecolor={""}
+          >
+          </DesignCard>
+          <DesignCard
+              logo={logo}
+              tag={""}
+              num={""}
+              type={""}
+              arrow={""}
+              changes={""}
+              changescolor={""}
+              linecolor={""}
+          >
+          </DesignCard>
+          </Stack>
           </Stack>
       );
 }
