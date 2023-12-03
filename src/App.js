@@ -54,10 +54,10 @@ function App() {
 
 
           <DesignCard
-              logo={'../images/icon-facebook.svg'}
-              tag={"@ nathan"}
-              num={"2222"}
-              type={"Subscriber"}
+              logo={"../images/icon-facebook.svg"}
+              tag={"@nathanf"}
+              num={"1987"}
+              type={"followers"}
               arrow={"../images/icon-up.svg"}
               changes={"12 today"}
               changescolor={"hsl(163, 72%, 41%)"}
@@ -65,36 +65,36 @@ function App() {
           >
           </DesignCard>
           <DesignCard
-              logo={logo}
-              tag={""}
-              num={""}
-              type={""}
-              arrow={""}
-              changes={""}
-              changescolor={""}
-              linecolor={""}
+              logo={"../images/icon-twitter.svg"}
+              tag={"@nathanf"}
+              num={"1044"}
+              type={"followers"}
+              arrow={"../images/icon-up.svg"}
+              changes={"99 Today"}
+              changescolor={"hsl(163, 72%, 41%)"}
+              linecolor={"hsl(208, 92%, 63%)"}
           >
           </DesignCard>
           <DesignCard
-              logo={logo}
-              tag={""}
-              num={""}
-              type={""}
-              arrow={""}
-              changes={""}
-              changescolor={""}
-              linecolor={""}
+              logo={"../images/icon-instagram.svg"}
+              tag={"@realnathanf"}
+              num={"11k"}
+              type={"followers"}
+              arrow={"../images/icon-up.svg"}
+              changes={"1099 Today"}
+              changescolor={"hsl(163, 72%, 41%)"}
+              linecolor={"linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%))"}
           >
           </DesignCard>
           <DesignCard
-              logo={logo}
-              tag={""}
-              num={""}
-              type={""}
-              arrow={""}
-              changes={""}
-              changescolor={""}
-              linecolor={""}
+              logo={"../images/icon-youtube.svg"}
+              tag={"Nathan F."}
+              num={"8239"}
+              type={"subscribers"}
+              arrow={"../images/icon-down.svg"}
+              changes={"144 Today"}
+              changescolor={"hsl(356, 69%, 56%)"}
+              linecolor={"hsl(348, 97%, 39%)"}
           >
           </DesignCard>
           </Stack>
@@ -128,38 +128,38 @@ function App() {
           >
             <DesignCardToday
                 type={"Page Views"}
-                logo={'../images/icon-facebook.svg'}
+                logo={"../images/icon-facebook.svg"}
                 num={"87"}
                 percentage={"3%"}
                 colorpercen={"hsl(163, 72%, 41%)"}
-                arrow={'../images/icon-facebook.svg'}
+                arrow={'../images/icon-up.svg'}
             >
             </DesignCardToday>
             <DesignCardToday
-                type={"Page Views"}
+                type={"Likes"}
                 logo={'../images/icon-facebook.svg'}
-                num={"87"}
-                percentage={"3%"}
-                colorpercen={"hsl(163, 72%, 41%)"}
-                arrow={'../images/icon-facebook.svg'}
+                num={"52"}
+                percentage={"2%"}
+                colorpercen={"hsl(356, 69%, 56%)"}
+                arrow={'../images/icon-down.svg'}
             >
             </DesignCardToday>
             <DesignCardToday
-                type={"Page Views"}
-                logo={'../images/icon-facebook.svg'}
-                num={"87"}
-                percentage={"3%"}
+                type={"Likes"}
+                logo={'../images/icon-instagram.svg'}
+                num={"5462"}
+                percentage={"2257%"}
                 colorpercen={"hsl(163, 72%, 41%)"}
-                arrow={'../images/icon-facebook.svg'}
+                arrow={'../images/icon-up.svg'}
             >
             </DesignCardToday>
             <DesignCardToday
-                type={"Page Views"}
-                logo={'../images/icon-facebook.svg'}
-                num={"87"}
-                percentage={"3%"}
+                type={"Profile Views"}
+                logo={'../images/icon-instagram.svg'}
+                num={"52k"}
+                percentage={"1375%"}
                 colorpercen={"hsl(163, 72%, 41%)"}
-                arrow={'../images/icon-facebook.svg'}
+                arrow={'../images/icon-up.svg'}
             >
             </DesignCardToday>
           </Stack><Stack
@@ -167,41 +167,42 @@ function App() {
               spacing={4}
               marginTop={"30px"}
               alignSelf={"center"}
+              marginBottom={"50px"}
           >
             <DesignCardToday
-                type={"Page Views"}
-                logo={'../images/icon-facebook.svg'}
-                num={"87"}
-                percentage={"3%"}
+                type={"Retweets"}
+                logo={'../images/icon-twitter.svg'}
+                num={"117"}
+                percentage={"303%"}
                 colorpercen={"hsl(163, 72%, 41%)"}
-                arrow={'../images/icon-facebook.svg'}
+                arrow={'../images/icon-up.svg'}
             >
             </DesignCardToday>
             <DesignCardToday
-                type={"Page Views"}
-                logo={'../images/icon-facebook.svg'}
-                num={"87"}
-                percentage={"3%"}
+                type={"Likes"}
+                logo={'../images/icon-twitter.svg'}
+                num={"507"}
+                percentage={"553%"}
                 colorpercen={"hsl(163, 72%, 41%)"}
-                arrow={'../images/icon-facebook.svg'}
+                arrow={'../images/icon-up.svg'}
             >
             </DesignCardToday>
             <DesignCardToday
-                type={"Page Views"}
-                logo={'../images/icon-facebook.svg'}
-                num={"87"}
-                percentage={"3%"}
-                colorpercen={"hsl(163, 72%, 41%)"}
-                arrow={'../images/icon-facebook.svg'}
+                type={"Likes"}
+                logo={'../images/icon-youtube.svg'}
+                num={"107"}
+                percentage={"19%"}
+                colorpercen={"hsl(356, 69%, 56%)"}
+                arrow={'../images/icon-down.svg'}
             >
             </DesignCardToday>
             <DesignCardToday
-                type={"Page Views"}
-                logo={'../images/icon-facebook.svg'}
-                num={"87"}
-                percentage={"3%"}
-                colorpercen={"hsl(163, 72%, 41%)"}
-                arrow={'../images/icon-facebook.svg'}
+                type={"Total Views"}
+                logo={'../images/icon-youtube.svg'}
+                num={"1407"}
+                percentage={"12%"}
+                colorpercen={"hsl(356, 69%, 56%)"}
+                arrow={'../images/icon-down.svg'}
             >
             </DesignCardToday>
           </Stack>

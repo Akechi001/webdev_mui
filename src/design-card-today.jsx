@@ -8,7 +8,7 @@ const designCardToday = ({type, logo, num, percentage, colorpercen, arrow}) => {
             <CardContent>
                 <Grid container direction="column" alignItems="center" spacing={5}>
                     <Grid item>
-                        <Grid container spacing={13} alignItems="center">
+                        <Grid container spacing={{  xs: 4, sm: 4, md: 8 }} alignItems="center">
                             {type && (
                                 <Grid item>
                                     <Typography variant="body2" fontWeight={"bold"} color={"grey"}>
